@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Reservation</title>
+    <link href = "reservation.css" rel = "stylesheet">
+</head>
+<body>
+    <div id ="header">
+        <nav id="navbar">
+            <h1>Ichiraku Ramen</h1>
+            <ul>
+                <li><a href="index.html" target="_blank">Home</a></li>
+                <li><a href="about_us.html" target="_blank">About Us</a></li>
+                <li><a href="menu.html" target="_blank">Menu</a></li>
+                <li><a href="reservation.html" target="_blank">Reservation</a></li>
+            </ul>
+            <div id = "phone">
+                <a href="tel:3471234567">3471234567</a>
+            </div>
+        </nav>
+    </div>
+    <div class = "container">
+        <div class = "container_time">
+            <h2 class="heading">Time Open</h2>
+            <h3 class="heading_days">Monday-Friday</h3>
+            <p>7 am - 11 am (Breakfast)</p>
+            <p>11 am - 10 pm (Lunch/Dinner)</p>
+
+
+            <h3 class="heading_days">Saturday and Sunday</h3>
+            <p>9 am - 1 pm (Breakfast)</p>
+            <p>1 pm - 10 pm (Lunch/Dinner)</p>
+
+            <hr>
+
+            <h4 class="heading_phone">Call Us: (347) 123-4567</h4>
+
+        </div>
+        <div class = "container_form">
+            <form action = "#">
+                <h2 class="heading heading_yellow">Reservation Online</h2>
+
+                <div class="form_field">
+                    <p>Your Name:</p>
+                    <input type = "text" placeholder = "Your Name">
+                </div>
+                <div class="form_field">
+                    <p>Your Email:</p>
+                    <input type = "email" placeholder = "Your Email">
+                </div>
+                <div class="form_field">
+                    <p>Date:</p>
+                    <input type = "date">
+                </div>
+                <div class="form_field">
+                    <p>Time:</p>
+                    <input type = "time">
+                </div>
+                <div class="form_field">
+                    <p>How many people:</p>
+                    <select name = "select" id = "#">
+                        <option value = "1">1 Person</option>
+                        <option value = "2">2 People</option>
+                        <option value = "3">3 People</option>
+                        <option value = "4">4 People</option>
+                        <option value = "5+">5+ People</option>  
+                    </select>
+                </div>
+                <button class = "btn">Submit</button>
+            </form>
+        </div>
+    </div>
+    
+</body>
+</html>
